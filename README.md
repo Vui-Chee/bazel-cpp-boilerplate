@@ -7,9 +7,7 @@ Go [here](https://bazel.build/) to install Bazel which will be used to compile c
 
 Write your function in your-code.cc.
 
-Specify tests in run-test.cc by defining `test<T, T>` where T is your desired type.
-For example, if `test<int, string>`, then each test would be declared as
-`test(123, "your string")` inside **tests** variable.
+You should not need to `include` any files since most of them are included in lib/stdc++.h.
 
 Change `#! /bin/[your shell]` in run.sh.
 
