@@ -1,7 +1,7 @@
 cc_library(
     name = "your-code",
     srcs = ["your-code.cc"],
-    hdrs = ["your-code.h"],
+    hdrs = ["your-code.h", "lib/stdc++.h"],
 )
 
 cc_binary(
