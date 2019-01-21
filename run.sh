@@ -2,4 +2,4 @@
 
 echo "Build & Run ["$0"]"
 
-(bazel build :$1 > /dev/null <&1) && bazel-bin/$1
+(bazel build :$1 2> log.txt) && bazel-bin/$1

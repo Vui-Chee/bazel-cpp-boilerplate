@@ -1,0 +1,20 @@
+Starting local Bazel server and connecting to it...
+INFO: Invocation ID: 55d54b65-caca-485a-8642-45fc28ec92a9
+Loading: 
+Loading: 0 packages loaded
+Analyzing: target //:run-test (1 packages loaded, 0 targets configured)
+Analyzing: target //:run-test (3 packages loaded, 16 targets configured)
+Analyzing: target //:run-test (8 packages loaded, 54 targets configured)
+INFO: Analysed target //:run-test (9 packages loaded, 104 targets configured).
+Building: no action
+INFO: Found 1 target...
+[0 / 7] [-----] Creating source manifest for //:run-test
+INFO: From Linking libyour-code.a:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: bazel-out/darwin-fastbuild/bin/libyour-code.a(your-code.o) has no symbols
+warning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: warning for library: bazel-out/darwin-fastbuild/bin/libyour-code.a the table of contents is empty (no object file members in the library define global symbols)
+Target //:run-test up-to-date:
+  bazel-bin/run-test
+INFO: Elapsed time: 7.429s, Critical Path: 1.04s
+INFO: 4 processes: 4 darwin-sandbox.
+INFO: Build completed successfully, 7 total actions
+INFO: Build completed successfully, 7 total actions
